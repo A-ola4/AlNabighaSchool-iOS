@@ -1,0 +1,21 @@
+﻿name: AlNabighaSchool
+
+options:
+  bundleIdPrefix: com.alnabighaschool
+  deploymentTarget:
+    iOS: "16.0"
+
+targets:
+  AlNabighaSchool:
+    type: application
+    platform: iOS
+    sources:
+      - AlNabighaSchool
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.alnabighaschool.ios
+        PRODUCT_NAME: AlNabighaSchool
+        SWIFT_VERSION: "5.0"
+        TARGETED_DEVICE_FAMILY: "1"
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_CFBundleDisplayName: "مدرسة النابغة"
